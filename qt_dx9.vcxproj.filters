@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{c3bb7789-cdd2-417f-aeb4-227db943f61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX9">
+      <UniqueIdentifier>{706e660c-8e2f-4d78-95e4-505a1a052888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX11">
+      <UniqueIdentifier>{830f9172-4190-4196-9b6f-0046b4f539ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="public">
+      <UniqueIdentifier>{2b91cabd-f573-410f-998f-74ea8169166f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="GDXWidget.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyOpenGL.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWidget.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GDXWidget.cpp">
+      <Filter>DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d11renderwidget.cpp">
+      <Filter>DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="widget.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>public</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MyOpenGL.h">
+      <Filter>OpenGL</Filter>
+    </QtMoc>
+    <QtMoc Include="GLWidget.h">
+      <Filter>OpenGL</Filter>
+    </QtMoc>
+    <QtMoc Include="GDXWidget.h">
+      <Filter>DX9</Filter>
+    </QtMoc>
+    <QtMoc Include="d3d11renderwidget.h">
+      <Filter>DX11</Filter>
+    </QtMoc>
+    <QtMoc Include="widget.h">
+      <Filter>OpenGL</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Effects.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>public</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/GDXWidget"/>
+    <qresource prefix="/shaders">
+        <file>GLSL/fragment.frag</file>
+        <file>GLSL/vertext.vert</file>
+    </qresource>
+    <qresource prefix="/model">
+        <file>model.frag</file>
+        <file>model.vert</file>
+    </qresource>
+</RCC>
